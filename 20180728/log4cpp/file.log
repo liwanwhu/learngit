@@ -1,0 +1,4 @@
+29 07 2018 09:49:34,216: INFO :info@class_log.cc,68|this is an info !
+29 07 2018 09:49:34,218: ERROR :error@class_log.cc,47|this is an error!
+29 07 2018 09:49:34,218: WARN :warn@class_log.cc,35|this is a warn!
+29 07 2018 09:49:34,219: DEBUG :debug@class_log.cc,57|this is a debug

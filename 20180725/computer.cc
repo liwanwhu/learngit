@@ -11,14 +11,17 @@
 using std::cout;
 using std::endl;
 
-
-
-int main(void)
+void Computer::setBrand(const char *brand)
 {
-	Computer com;
-	com.setBrand("lenovo");
-	com.setPrice(8888);
-	com.print();
+	strcpy(_brand,brand);
+}
+void Computer::setPrice(float price)
+{
+	_price=price;
+}
 
-	return 0;
+void Computer::print()
+{
+	cout<<"brand:"<<_brand<<endl;
+	cout<<"price:"<<_price<<endl;
 }
